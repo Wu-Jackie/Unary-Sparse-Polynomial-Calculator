@@ -1,0 +1,7 @@
+<RCC>
+    <qresource prefix="/">
+        <file>CSTlogo.ico</file>
+        <file>nuc.ico</file>
+        <file>NUC.jpeg</file>
+    </qresource>
+</RCC>
