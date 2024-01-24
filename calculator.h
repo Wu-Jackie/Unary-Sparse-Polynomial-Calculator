@@ -5,11 +5,11 @@
 #include <string.h>
 #include <iostream>
 #include <iomanip>
-#include <conio.h>
-#include <process.h>
+//#include <conio.h>
+//#include <process.h>
 #include <math.h>
 #include <fstream>
-#include <windows.h>
+//#include <windows.h>
 #include <string>
 #include <QString>
 #define MAX  100

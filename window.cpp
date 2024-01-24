@@ -13,7 +13,7 @@
 #include <QMessageBox>
 #include <QProcess>
 #include <QSplashScreen>
-#include <synchapi.h>
+//#include <synchapi.h>
 #include <QKeyEvent>
 #include <QScrollBar>
 #include <QLineEdit>
