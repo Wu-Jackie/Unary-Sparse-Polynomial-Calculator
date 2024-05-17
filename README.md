@@ -51,15 +51,17 @@ chmod +x qt-opensource-linux-x64-5.12.8.run
 
 ### 直接编译
 
+> 如果在Windows平台运行，需取消头文件中的注释
+
 ```bash
 cd {directory}
-qmake
+make
 ./NUC  按下tab自动补全后即可运行
 ```
 
 # 基本要求&功能
 
-1. 输出多项式，输出形式为整数序列：n,c~1~,e~1~,c~2~,e~2~,…,c~n~,e~n~，其中n是多项式的项数，c~i~,e~i~分别是第i项的系数和指数，序列按指数降序排列。
+1. 输出多项式，输出形式为整数序列：n,c<sub>1</sub>,e<sub>1</sub>,c<sub>2</sub>,e<sub>2</sub>,…,c<sub>n</sub>,e<sub>n</sub>，其中n是多项式的项数，c<sub>i</sub>,e<sub>i</sub>分别是第i项的系数和指数，序列按指数降序排列。
 2. 实现多项式a和b相加、相减，建立多项式a+b、a-b。
 
 3. 计算多项式在x处的值。
